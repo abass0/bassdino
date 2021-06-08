@@ -10,4 +10,4 @@
 
 ## What I Used
 
-<img src="https://img-premium.flaticon.com/png/512/226/226269.png?token=exp=1623166793~hmac=4a2955863a927a7e2c35c919a8208f2e" alt="html5" width="100" height="100">
+<img src="https://img-premium.flaticon.com/png/512/226/226269.png?token=exp=1623166793~hmac=4a2955863a927a7e2c35c919a8208f2e" alt="html5" width="50" height="50">
