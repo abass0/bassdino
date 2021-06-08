@@ -6,7 +6,7 @@
 
 <p align="center">Simple static set of HTML and CSS pages made pretty with pictures.</p>
 
-<h1 align="center"> <img src="assets/index.jpg" alt="My baby, my baby"></h1>
+<h1 align="center"> <img src="assets/index.jpg" alt="My baby, my baby" width="200" height="200"></h1>
 
 ## What I Used
 
