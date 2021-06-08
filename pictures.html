@@ -1,4 +1,127 @@
 <!DOCTYPE html>
 <html>
-    <head>The Pictures...</head>
+    <title>The Pictures...</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Space+Mono&display=swap');
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+    .header {
+      text-align: center;
+      padding: 32px;
+    }
+    
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      -ms-flex: 25%; /* IE10 */
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+    h1 {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+body{
+   padding-top:0px;
+   margin-top: 0px;
+}
+.buttons {
+    font-family: 'Space Mono', monospace;
+    padding: 10px 24px; 
+    cursor: hand; 
+    float: center;  
+    margin: 10px;
+    width: 150px;
+    
+}
+div{
+    padding-left: 800px;
+}
+    </style>
+    
+    <h1>The Pictures</h1>
+    <body>
+    <div class="row">
+        <div class="column">
+          <img src="pictures/2.jpg">
+          <img src="pictures/4.jpg">
+          <img src="pictures/6.jpg">
+          <img src="pictures/8.jpg">
+          <img src="pictures/10.jpg">
+          <img src="pictures/12.jpg">
+          <img src="pictures/14.jpg">
+        </div>
+        <div class="column">
+          <img src="pictures/1.jpg">
+          <img src="pictures/3.jpg">
+          <img src="pictures/5.jpg">
+          <img src="pictures/7.jpg">
+          <img src="pictures/9.jpg">
+          <img src="pictures/11.jpg">
+        </div>
+        <div class="column">
+          <img src="pictures/15.jpg">
+          <img src="pictures/17.jpg">
+          <img src="pictures/19.jpg">
+          <img src="pictures/21.jpg">
+          <img src="pictures/16.jpg">
+          <img src="pictures/18.jpg">
+          <img src="pictures/20.jpg">
+        </div>
+        <div class="column">
+          <img src="pictures/22.jpg">
+          <img src="pictures/24.jpg">
+          <img src="pictures/26.jpg">
+          <img src="pictures/25.jpg">
+          <img src="pictures/27.jpg">
+          <img src="pictures/21.jpg">
+        </div>
+      </div>
+      <div><button class="buttons" onclick="goBack()">Go Back</button></div>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+    </body>
 </html>
