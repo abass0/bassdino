@@ -9,4 +9,4 @@
 
 ## Technologies Used
 
-<img src="https://img-premium.flaticon.com/png/512/226/226269.png?token=exp=1623166793~hmac=4a2955863a927a7e2c35c919a8208f2e" alt="html5" width="50" height="50"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="css" width="50" height="50"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript" width="50" height="50">
+<img src="https://img-premium.flaticon.com/png/512/226/226269.png?token=exp=1623166793~hmac=4a2955863a927a7e2c35c919a8208f2e" alt="html5" width="50" height="50"><img src="https://image.flaticon.com/icons/png/512/732/732190.png" alt="css" width="50" height="50"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="javascript" width="50" height="50">
