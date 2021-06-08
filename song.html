@@ -2,18 +2,60 @@
 <html>
     <body>
         <style>
-           .audio-container {
-            align-items: center;
-            padding-top: 450px;
-            padding-left: 740px;
-}
-        </style>
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Space+Mono&display=swap');
+
+.audio-container {
+align-items: center;
+padding-top: 100px;
+padding-left: 740px;
+padding-right: 740px;
+}
+.buttons {
+    font-family: 'Space Mono', monospace;
+    padding: 10px 24px; 
+    cursor: hand; 
+    float: center;  
+    margin: 10px;
+    width: 150px;
+}
+
+.responsive-img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    
+}
+
+div {
+    text-align: center;
+    padding-bottom: 100px;
+}
+h1 {
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+}
+</style>
+
+<h1>Our Song...</h1>
+<img class="responsive-img" src="images/capa.jpg" alt="Our Song">
 <div class="audio-container">
 <audio controls autoplay>
     <source src="assets/audio.mp3" type="audio/mp3">
   Your browser does not support the audio element.
   </audio>
 </div>
+
+<div><button class="buttons" onclick="goBack()">Go Back</button></div>
+
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
     </body>
 </html>    
