@@ -1,4 +1,4 @@
-## A project for my wife
+## A project for my wife!
 
 ![Badge](https://img.shields.io/github/last-commit/abass0/bassdino?style=social)
 
